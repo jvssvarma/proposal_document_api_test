@@ -1,24 +1,21 @@
-# README
+# Freelance Proposals templates collection application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Space for freelancers to find the best template available and write the best Proposals to clients.
 
-Things you may want to cover:
+Example proposal:
 
-* Ruby version
+  "Hi Customer_name,
 
-* System dependencies
+  It was pleasure getting to meet with you and review your project requirements. I believe it is a great fit for the types of applications that I build out. Please feel free to check out some of my past projects.
 
-* Configuration
+  To successfully build out the application I will be utilizing Ruby on Rails, EmberJS, and PostgreSQL, and a number of other tools to ensure that the project follows industry wide best practices.
 
-* Database creation
+  Ensuring that you are fully informed is one of my top priorities, so in addition to incorporating everything that we discussed, I will also be creating a project management dashboard and sending you a project update message daily so that you can have a transparent view of the development as it takes place.
 
-* Database initialization
+  To accomplish the project and meet the requirements that we discussed, I am estimating that it will take 80 hours in development time to complete. The project should take 9 weeks to complete and with my hourly rate of 45/hr, the estimated total will be around $4000.
 
-* How to run the test suite
+  The next step from here is to set up a meeting to finalize the project and sign contracts.
 
-* Services (job queues, cache servers, search engines, etc.)
+  I am excited to working with you and build out this project.
 
-* Deployment instructions
-
-* ...
+  "
