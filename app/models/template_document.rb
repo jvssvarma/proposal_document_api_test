@@ -1,0 +1,2 @@
+class TemplateDocument < ApplicationRecord
+end
