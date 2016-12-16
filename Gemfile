@@ -5,6 +5,7 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 #For cross origin resource sharing.
 gem 'rack-cors'
+gem 'devise_token_auth'
 
 group :development, :test do
   gem 'byebug', platform: :mri
