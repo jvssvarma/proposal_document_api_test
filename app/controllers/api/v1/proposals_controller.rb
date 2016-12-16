@@ -1,6 +1,7 @@
 module Api
   module V1
     class ProposalsController < ApplicationController
+      before_filter :restrict_access
       before_action :set_proposal, only: [:show, :update, :destroy]
 
       # GET /proposals
@@ -49,6 +50,12 @@ module Api
         # Only allow a trusted parameter "white list" through.
         def proposal_params
           params.require(:proposal).permit(:customer, :portfolio_url, :tools, :estimated_hours, :hourly_rate, :weeks_to_complete, :client_email)
+        end
+
+        def restrict_access
+          authenticate_or_request_with_http_token do |token, options|
+            ApiKey.exists?(access_token: token)
+          end
         end
     end
   end
